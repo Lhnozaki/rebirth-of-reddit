@@ -1,0 +1,23 @@
+{
+  "name": "rebirth-of-reddit",
+  "version": "0.0.1",
+  "description": "rebirth of reddit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lhnozaki/rebirth-of-reddit.git"
+  },
+  "keywords": [
+    "SASS",
+    "GULP"
+  ],
+  "author": "Lewis Nozaki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lhnozaki/rebirth-of-reddit/issues"
+  },
+  "homepage": "https://github.com/Lhnozaki/rebirth-of-reddit#readme"
+}
