@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato|Oswald&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Rebirth of Reddit</title>
+  </head>
+  <body>
+    <!--Header & Logo-->
+    <div id="header-container">
+      <img src="/assets/logo.svg" alt="logo" />
+      <div id="plus">
+        <div>+</div>
+      </div>
+    </div>
+
+    <!--Header & Subreddits-->
+    <div id="subheader">
+      <div id="subreddit-container">
+        <div class="subreddit random">Random</div>
+        <span class="dot"></span>
+        <div class="subreddit">/r/Food</div>
+        <span class="dot"></span>
+        <div class="subreddit">/r/cats</div>
+        <span class="dot"></span>
+        <div class="subreddit">/r/adidas</div>
+      </div>
+    </div>
+
+    <!--Content Container-->
+    <div id="main">
+      <div id="contentContainer">
+        <form id="search">
+          <label for="number">Search for a subreddit: </label><br />
+          <input type="text" id="text" placeholder="/r/example" /><br />
+          <button id="searchBtn">Submit</button>
+        </form>
+      </div>
+    </div>
+
+    <!--Footer-->
+    <div class="footer">
+      <img id="FB" src="/assets/facebook_grey.svg" alt="" />
+      <img id="IG" src="/assets/instagram_grey.svg" alt="" />
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
