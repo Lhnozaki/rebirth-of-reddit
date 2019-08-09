@@ -155,6 +155,10 @@
   .footer img {
     margin: 10px;
     cursor: pointer; }
+  .footer #FB:hover {
+    content: url("/assets/facebook_orange.svg"); }
+  .footer #IG:hover {
+    content: url("/assets/instagram_orange.svg"); }
 
 @media only screen and (max-width: 675px) {
   #header-container {

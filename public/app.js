@@ -1,22 +1,5 @@
 "use strict";
 
-// SVG hover for FB & IG icons
-let IG = document.getElementById("IG");
-IG.addEventListener("mouseover", function() {
-  this.src = "/assets/instagram_orange.svg";
-});
-IG.addEventListener("mouseout", function() {
-  this.src = "/assets/instagram_grey.svg";
-});
-
-let FB = document.getElementById("FB");
-FB.addEventListener("mouseover", function() {
-  this.src = "/assets/facebook_orange.svg";
-});
-FB.addEventListener("mouseout", function() {
-  this.src = "/assets/facebook_grey.svg";
-});
-
 // Add event listeners to subreddit buttons
 let subreddits = document.querySelectorAll(".subreddit");
 subreddits.forEach(e => {
